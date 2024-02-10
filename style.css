@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Nunito",sans-serif;
+    background: url('https://media.gettyimages.com/id/1133006326/vector/abstract-plant-border.jpg?s=612x612&w=0&k=20&c=qf4nmZzRdrFxHJW7AfbLX0I7Mo3iWmnuwJOxUuwQJvQ=') center center / cover no-repeat;
+}
+li {
+    list-style-type: none;
+    
+}
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 15px 0;
+    transition: 0.4;
+}
+h3:hover {
+    color: goldenrod;
+}
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.content {
+    width: 20%;
+    margin-left: 15px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 14px 28px black;
+    border-radius: 20px;
+    transition: 0.4s;
+    background: white;
+}
+.content:hover {
+    box-shadow: 0 3px 6px purple;
+    transform: translate(1px, -8px);
+}
+img {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    
+}
+p {
+    text-align: center;
+    color: #b2bec3;
+    padding: 5px;
+}
+h6 {
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin-bottom: 5px;
+}
+button {
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px
+
+}
+.buy-1 {
+    background: #2183a2;
+}
+.buy-2 {
+    background: #3b3e6e;
+}
+.buy-3 {
+    background: #0b0b0b;
+}
+.buy-4 {
+    background: #ff9f43;
+}
+@media(max-width:1000px){
+    .content {
+        width: 45%;
+    }
+}
+@media(max-width:750px){
+    .content {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
